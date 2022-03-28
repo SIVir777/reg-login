@@ -1,0 +1,244 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.title-site {
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.knop-glav {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: #249DFF solid 3px;
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: #000;
+}
+
+.knop-glav:hover {
+    background: #249DFF;
+    color: #fff;
+}
+
+/* Регистрация */
+.title-reg {
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.form-reg {
+    border: 2px solid #249DFF;
+    margin: 0 auto;
+    width: 500px;
+    padding: 40px 0;
+    border-radius: 20px;
+}
+
+.form-reg {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.soob-reg {
+    font-family: sans-serif;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.input-reg {
+    font-size: 20px;
+    width: 350px;
+    border-radius: 5px;
+    outline: none;
+    border: solid 2px #249DFF;
+    padding: 2px;
+}
+
+.pod-password {
+    font-family: sans-serif;
+    width: 350px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.knop-send-reg {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 23px;
+    border: 2px solid #249DFF;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.knop-send-reg:hover {
+    background: #249DFF;
+    color: #fff;
+}
+
+.error-reg {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: #ffa1a1;
+    padding: 7px;
+    border: 2px solid #ff2121;
+    border-radius: 7px;
+}
+
+.hidden-error {
+    display: none;
+}
+
+.title-error {
+    font-family: sans-serif;
+    font-size: 27px;
+}
+
+.text-error {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.title-kabinet {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.kabinet-user-name {
+    font-size: 45px;
+    color: #00A550;
+    font-family: sans-serif;
+}
+
+.kabinet-text {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.kabinet-podpis {
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+
+/*Аторизация*/
+.knop-send-auth {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 23px;
+    padding: 3px 27px;
+    border: 2px solid #00851B;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.knop-send-auth:hover {
+    background: #00851B;
+    color: #fff;
+}
+
+.form-auth {
+    border: 2px solid #00851B;
+    margin: 0 auto;
+    width: 500px;
+    padding: 40px 0;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input-auth {
+    font-size: 20px;
+    width: 350px;
+    border-radius: 5px;
+    outline: none;
+    border: solid 2px #00851B;
+    padding: 2px;
+}
+
+
+
+.hidden-container {
+    display: none;
+}
+
+.role {
+    margin-top: 15px;
+}
+
+.this-role {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: medium;
+}
+
+.role-imenno {
+    margin-left: 3px;
+}
+
+.superKnop {
+    display: block;
+    margin: 17px 0;
+    border: 2px solid #008016;
+    background: #fff;
+    border-radius: 7px;
+    padding: 5px 20px;
+    font-family: sans-serif;
+    font-size: 23px;
+    color: #000;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.superKnop:hover {
+    background: #008016;
+    color: #fff;
+}
+
+
+.hidden-spisok {
+    display: none;
+}
+
+.spisok {
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.style-chel-spisok {
+    display: inline;
+    font-family: sans-serif;
+    font-size: 22px;
+}

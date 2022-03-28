@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header> 
+        <div class="container" id="container-reg">
+            <div class="title-reg">
+                Регистрация
+            </div>
+            <form class="form-reg">
+                <div class="soob-reg">Введите имя пользователя</div>
+                <input type="text" name="username" class="input-name input-reg" placeholder="Имя пользователя">
+                <div class="soob-reg">Введите праоль</div>
+                <input type="text" name="password" class="input-password input-reg" placeholder="Введите праоль">
+                <div class="pod-password">Пароль доджен содержать не менее 3 и не более 10 символов</div>
+                <button type="submit" class="knop-send-reg">Отправить</button>
+            </form>
+            <div class="error-reg hidden-error">
+                <div class="title-error">Ошибка:</div>
+                <div class="text-error"></div>
+            </div>
+        </div>
+        <div class="container hidden-container" id="kabinet-reg">
+            <h1 class="title-kabinet">Личный кабинет пользователя</h1>
+            <div class="kabinet-user-name" id="username-k-reg">User</div>
+            <div class="kabinet-text">
+                Можно полюбоваться своим прекрасным именем пользователя
+            </div>
+            <hr>
+            <div class="kabinet-podpis">Прерйдите на главную страницу и авторизуйтесь, чтобы получить больше возможностей</div>
+        </div>
+    </header>
+    <script src="script/reg.js"></script>
+</body>
+</html>
